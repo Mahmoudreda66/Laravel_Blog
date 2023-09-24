@@ -22,7 +22,9 @@
     </head>
     <body class="antialiased">
 
-    Hello {{$employee->name}}
+    @if($employee->name == 'Maryam')
+        <h1>Hello Maryam</h1>
+    @endif
     </body>
 
 </html>
